@@ -1,0 +1,45 @@
+{
+  "name": "AroundMe",
+  "version": "0.0.1",
+  "description": "Example of using ReactNative to build simple iOS app, that fetches your current location and display Intstagram photos that where made near to you",
+  "scripts": {
+    "start": "NODE_ENV=debug HOT=1 ./node_modules/.bin/react-native-webpack-server start --hot",
+    "bundle": "NODE_ENV=production ./node_modules/.bin/react-native-webpack-server bundle"
+  },
+  "author": "Bart Gryszko <b@gryszko.com> (http://github.com/bgryszko)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bgryszko/react-native-example/issues"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-native",
+    "instagram",
+    "animated"
+  ],
+  "homepage": "https://github.com/bgryszko/react-native-example",
+  "dependencies": {
+    "babel-eslint": "^4.1.2",
+    "eslint": "^1.4.3",
+    "moment": "^2.10.6",
+    "react": "^0.13.3",
+    "react-native": "^0.11.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.24",
+    "babel-eslint": "^4.1.2",
+    "babel-loader": "^5.3.2",
+    "babel-plugin-dunderscore-dev-inline": "^1.0.1",
+    "babel-plugin-node-env-inline": "^1.0.1",
+    "babel-runtime": "^5.8.24",
+    "eslint": "^1.4.3",
+    "eslint-config-airbnb": "0.0.8",
+    "eslint-plugin-react": "^3.3.2",
+    "react-hot-loader": "^1.3.0",
+    "react-native-webpack-server": "^0.5.1",
+    "webpack": "^1.12.1",
+    "webpack-dev-server": "^1.11.0"
+  }
+}
